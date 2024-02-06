@@ -5,9 +5,7 @@ namespace Auction.API.Controllers;
 
 using Entities;
 
-[Route("[controller]")]
-[ApiController]
-public class AuctionController : ControllerBase
+public class AuctionController : AuctionBaseController
 {
     [HttpGet]
     [ProducesResponseType(typeof(Auction), StatusCodes.Status200OK)]
