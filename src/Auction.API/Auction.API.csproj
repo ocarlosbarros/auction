@@ -30,4 +30,8 @@
       <None Remove="Entity\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Communication\Responses\" />
+    </ItemGroup>
+
 </Project>
