@@ -1,5 +1,8 @@
 using Auction.API.Filters;
+using Auction.API.Interfaces;
+using Auction.API.Repositories.DataAccess;
 using Auction.API.Services;
+using Auction.API.UseCases.Auctions.GetCurrent;
 using Auction.API.UseCases.Offers.CreateOffer;
 using Microsoft.OpenApi.Models;
 
@@ -43,6 +46,8 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddScoped<AuthenticationUserAttribute>();
 builder.Services.AddScoped<LoggedUser>();
 builder.Services.AddScoped<CreateOfferUseCase>();
+builder.Services.AddScoped<GetCurrentAuctionUseCase>();
+builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
 
 
 builder.Services.AddHttpContextAccessor();
