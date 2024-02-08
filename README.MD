@@ -3,6 +3,7 @@ TO USE THIS TEMPLATE JUST CHANGE ALL VARIABLES BELOW
 
 [GITHUB_USER]
 [PROJECT_NAME]
+project-name
 [PATH_IMAGE]
 [VERSION]
 [NUGET_PACKAGE_NAME]
@@ -54,16 +55,16 @@ TO USE THIS TEMPLATE JUST CHANGE ALL VARIABLES BELOW
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper nunc non vehicula dignissim. Duis id leo mauris. Pellentesque molestie facilisis nunc, nec scelerisque est congue a. 
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
 ##  :heavy_check_mark: Features 
 
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
 ##  :camera: Screenshots 
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
 <!-- ends first block of content -->
 
@@ -81,7 +82,7 @@ This project was built with .NET Core 8.
     - Xunit v2.4.2
     - Bogus v35.4.0
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
 <!-- ends second block of content -->
 
@@ -91,7 +92,7 @@ These instructions will allow you to get a copy of the project on your local mac
 
 ##  :warning: Requirements 
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
 ##  :gear: Run Application
 
@@ -119,13 +120,13 @@ dotnet run
 ```
 
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
 #  :test_tube: Tests
 
 To run tests, run the following command
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
 #   :page_facing_up: License 
 
@@ -133,7 +134,7 @@ Project Name is MIT Licensed. See ```LICENSE.md``` for more information.
 
 <br/>
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
 
 # :octocat: Developers 
@@ -156,5 +157,5 @@ Developed with 💜 by Carlos Barros
     <a href="https://www.youtube.com/channel/UC1xY9hXr4h_77rfKKk-i3Vg" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=badge&logo=youtube&logoColor=white" target="_blank"></a>
 </div>
 
-<p align="right"><a href="#project_name">back to top</a></p>
+<p align="right"><a href="#auction">back to top</a></p>
 
