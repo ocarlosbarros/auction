@@ -18,13 +18,13 @@ TO USE THIS TEMPLATE JUST CHANGE ALL VARIABLES BELOW
 
 <div align="center">
 
-# [PROJECT_NAME]
+# Auction
 
-🚧 README em construção  🚧 :construction:
+🚧 README under construction  🚧 :construction:
 
 <!-- CHANGE [GITHUB_USER] AND [PROJECT_NAME] IN ALL LINK LOCATION -->
 
-[![[GITHUB_USER] - [PROJECT_NAME]](https://img.shields.io/static/v1?label=[GITHUB_USER]&message=[PROJEC_TNAME]&color=2eac6f&style=for-the-badge&logo=github)](https://github.com/[GITHUB_USER]/[PROJECT_NAME] "Go to GitHub repo")
+[![ocarlosbarros - Auction](https://img.shields.io/static/v1?label=ocarlosbarros&message=Auction&color=2eac6f&style=for-the-badge&logo=github)](https://github.com/ocarlosbarros/Auction "Go to GitHub repo")
 
 <!-- BADGES OF STATUS IN DEVELOPEMNT AND LICENSE MIT -->
 <img src="http://img.shields.io/static/v1?label=status&message=in%20development&color=2eac6f&style=for-the-badge"/>
@@ -69,15 +69,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper nunc non ve
 
 #   :hammer_and_wrench: Built with 
 
-This project was built with .NET Core [VERSION].
+This project was built with .NET Core 8.
 
 * ##    :computer: Technologies and NuGet Packages 
 
     <!-- FILL TECHS AND PACKAGES BELOW -->
-    - .NET Core [VERSION]
-    - ASP.NET Core [VERSION]
-    - [NUGET_PACKAGE_NAME] [VERSION]
-    - [NUGET_PACKAGE_NAME] [VERSION]
+    - .NET Core v8.0.101
+    - Entity Framework Core v8.0.1
+    - Fluent Assetions v6.12.0
+    - Moq v4.20.70
+    - Xunit v2.4.2
+    - Bogus v35.4.0
 
 <p align="right"><a href="#project_name">back to top</a></p>
 
@@ -96,13 +98,13 @@ These instructions will allow you to get a copy of the project on your local mac
 1. Clone project
 
 ```
-git clone [URL_TO_CLONE_PROJECT]
+git clone git@github.com:ocarlosbarros/auction.git
 ```
 
 2. Access project folder
 
 ```
-cd [PROJECT_FOLDER]
+cd Auction
 ```
 
 3. Install dependencies
@@ -127,7 +129,7 @@ To run tests, run the following command
 
 #   :page_facing_up: License 
 
-Project Name is [LICENSE_TYPE] Licensed. See ```LICENSE.md``` for more information.
+Project Name is MIT Licensed. See ```LICENSE.md``` for more information.
 
 <br/>
 
@@ -136,23 +138,22 @@ Project Name is [LICENSE_TYPE] Licensed. See ```LICENSE.md``` for more informati
 
 # :octocat: Developers 
 
-<a href="https://[GITHUB_USER].github.io" target="_blank">
+<a href="https://ocarlosbarros.github.io" target="_blank">
  <div>
-    [GITHUB_PROFILE_IMAGE]
-    <img style="border-radius: 50%;" src="https://[GITHUB_USER].github.io/assets/[GITHUB_PROFILE_CODE].png" width="100px;" alt=""/>
+    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/22147889?v=4" width="100px;" alt=""/>
     <br />
-    <p style="margin-left:10px"><b>[YOUR_NAME]</b></p>
+    <p style="margin-left:10px"><b>Carlos Barros</b></p>
  </div>
  </a> 
 
 
-Developed with 💜 by [YOUR_NAME]
+Developed with 💜 by Carlos Barros
 
 <div align="left">
-    <a href="https://www.linkedin.com/in/[LINKEDIN_USER]" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=badge&logo=linkedin&logoColor=white" target="_blank"></a>
-    <a href = "mailto:[YOUR_EMAIL]@hotmail.com"><img src="https://img.shields.io/badge/Outlook-0078D4?style=badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
-    <a href="https://www.instagram.com/[INSTAGRAM_USER]/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=badge&logo=instagram&logoColor=white" target="_blank"></a>
-    <a href="https://www.youtube.com/channel/[YOUTUBE_CHANNEL_ID]" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=badge&logo=youtube&logoColor=white" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/ocarlosbarros" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    <a href = "mailto:carlos_dbs@hotmail.com"><img src="https://img.shields.io/badge/Outlook-0078D4?style=badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
+    <a href="https://www.instagram.com/o_carlosbarrosdev/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=badge&logo=instagram&logoColor=white" target="_blank"></a>
+    <a href="https://www.youtube.com/channel/UC1xY9hXr4h_77rfKKk-i3Vg" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=badge&logo=youtube&logoColor=white" target="_blank"></a>
 </div>
 
 <p align="right"><a href="#project_name">back to top</a></p>
