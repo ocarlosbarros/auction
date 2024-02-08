@@ -140,7 +140,7 @@ Project Name is MIT Licensed. See ```LICENSE.md``` for more information.
 
 <a href="https://ocarlosbarros.github.io" target="_blank">
  <div>
-    <img style="border-radius: 50%;" src="https://ocarlosbarros.github.io/assets/profile-9441771d.png" width="100px;" alt=""/>
+    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/22147889?v=4" width="100px;" alt=""/>
     <br />
     <p style="margin-left:10px"><b>Carlos Barros</b></p>
  </div>
