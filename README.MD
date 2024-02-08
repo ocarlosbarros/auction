@@ -20,7 +20,7 @@ TO USE THIS TEMPLATE JUST CHANGE ALL VARIABLES BELOW
 
 # [PROJECT_NAME]
 
-🚧 :construction:
+🚧 README em construção  🚧 :construction:
 
 <!-- CHANGE [GITHUB_USER] AND [PROJECT_NAME] IN ALL LINK LOCATION -->
 
@@ -33,9 +33,6 @@ TO USE THIS TEMPLATE JUST CHANGE ALL VARIABLES BELOW
 <!-- BELOW CHANGE THE PROJECT NAME AND THE PATH TO A LOCAL IMAGE REPRESENTING THE PROJECT PROJECT -->
 
 <!-- ![PROJECT_NAME]([PATH_IMAGE]) example: ![MY APP](./src/images/applicacao.png)--> 
-
-🚧 :construction:
-
 
 </div>
 
