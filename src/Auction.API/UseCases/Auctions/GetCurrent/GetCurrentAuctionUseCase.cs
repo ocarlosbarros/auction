@@ -1,5 +1,4 @@
 using Auction.API.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace Auction.API.UseCases.Auctions.GetCurrent;
 
