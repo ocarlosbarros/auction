@@ -21,7 +21,7 @@ project-name
 
 # Auction
 
-🚧 README under construction  🚧 :construction:
+🚧 :construction: README under construction  🚧 :construction:
 
 <!-- CHANGE [GITHUB_USER] AND [PROJECT_NAME] IN ALL LINK LOCATION -->
 
