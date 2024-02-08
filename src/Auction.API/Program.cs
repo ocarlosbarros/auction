@@ -1,9 +1,11 @@
 using Auction.API.Filters;
 using Auction.API.Interfaces;
+using Auction.API.Repositories;
 using Auction.API.Repositories.DataAccess;
 using Auction.API.Services;
 using Auction.API.UseCases.Auctions.GetCurrent;
 using Auction.API.UseCases.Offers.CreateOffer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -51,6 +53,10 @@ builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
 builder.Services.AddScoped<IOfferRepository, OfferRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+builder.Services.AddDbContext<AuctionDbContext>(options =>
+{
+    options.UseSqlite(@"Data Source=/home/ocarlosbarros/Repos/databases/auctionDb.db");
+});
 
 builder.Services.AddHttpContextAccessor();
 
