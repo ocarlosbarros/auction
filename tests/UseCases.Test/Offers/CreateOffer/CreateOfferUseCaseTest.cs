@@ -14,8 +14,11 @@ namespace UseCases.Test.Offers.CreateOffer;
 
 public class CreateOfferUseCaseTest
 {
-    [Fact]
-    public void Success()
+    [Theory]
+    [InlineData(1)]
+    [InlineData(2)]
+    [InlineData(3)]
+    public void Success(int itemId)
     {
         //Arrange
         var requestCreateOfferFake = new Faker<RequestCreateOfferJson>()
@@ -29,7 +32,7 @@ public class CreateOfferUseCaseTest
         var useCase = new CreateOfferUseCase(loggedUser.Object,offerRepository.Object);
         
         //Act
-        var act = () => useCase.Execute(0, requestCreateOfferFake);
+        var act = () => useCase.Execute(itemId, requestCreateOfferFake);
         
         //Assertion
         act.Should().NotThrow();
